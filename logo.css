@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    background: #00ae44;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    height: 120px ;
+    border-bottom:  2px solid #fff;
+}
+
+header nav {
+    width: 95%;
+    background-color: #00ae44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    width: 80px;
+    color: #fff;
+}
+
+header nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+header nav div ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+main section {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+main section img{
+    width: 100%;
+    height: 100%;
+    margin-top: -1px;
+}
+.text-banner-h1, .text-banner-mobile-h1 {
+    text-transform: uppercase;
+    font-family: 'korolev-rounded';
+    font-size: 5.5vw;
+    font-weight: 800;
+    line-height: 74px;
+    margin-bottom: 32px;
+}
+h1, .h1 {
+    font-size: 36px;
+}
+h1, .h1, h2, .h2, h3, #products .product h4, #products .product th, #simple-7up #simple-products .nutrition-container h4, #simple-7up #simple-products .nutrition-container th, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, #products .product h4, #products .product th, #simple-7up #simple-products .nutrition-container h4, #simple-7up #simple-products .nutrition-container th, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.text-banner1 {
+    position: absolute;
+    top: 33%;
+    left: 9%;
+    color: white;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font: 400 20px / 1.2 "Nobel", Helvetica, Arial, sans-serif;
+    color: #818182;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+    
+
+.logos{
+    gap: 5px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    position: relative;
+    cursor: pointer;
+}
+.logos ul li{
+    width: 24px;
+    height: 24px;
+}
+.face{
+    width: 19px;
+    height: 19px;
+}
+.insta{
+    width: 19px;
+    height: 19px;
+}
+.tik{
+    width: 19px;
+    height: 19px;
+}
+.x{
+    width: 19px;
+    height: 19px;
+}
+.yt{
+    width: 19px;
+    height: 19px;
+}
+.pin{
+    width: 19px;
+    height: 19px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font: 400 20px / 1.2 "Nobel", Helvetica, Arial, sans-serif;
+    color: #818182;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.recipes-text-data {
+    width: 45%;
+   left: 459px;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 0 43px 0;
+    bottom: -1400px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    
+
+}
+
+.recipes-text-data1{
+    width: 45%;
+   left: 459px;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 0 43px 0;
+    top: 1140px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+}
+.button-banner1 {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-family: 'korolev';
+    color: #ffff;
+    font: 400 20px;
+    height: 36px;
+    width: 137px;
+}
+.button-banner2{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    left: 459px;
+    font-size: 0.9rem;
+    font-family: 'korolev';
+    color: #ffff;
+    font: 400 20px;
+    height: 36px;
+    align-items: center;
+    text-align: center;
+    width: 140px;
+    padding-left: 50px;
+}
+.button-banner3{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-family: 'korolev';
+    color: #ffff;
+    font: 400 20px;
+    height: 36px;
+    width: 140px;
+}
+#footer{
+    background-size: cover;
+    position: absolute;
+    margin-top: 0;
+    background-color: #3e3e3e;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px 30px 60px;
+    text-align: center;
+}
+.utility{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 0 0 12px;
+    padding: 0;
+    list-style: none;
+    gap: 20px;
+    padding-bottom: 17px;
+}
+.utility li{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+#footer .box p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
